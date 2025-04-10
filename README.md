@@ -109,10 +109,12 @@ COST – сумма тарифа.
 Спасибо за ваши решения. Удачи и до встречи на курсе! ☺ 
 
 Скрипт заполнения таблиц 
-
-begin  
 ```
-insert into tarifs values (1,'Тариф за выдачу кредита', 10);  insert into tarifs values (2,'Тариф за открытие счета', 10);  insert into tarifs values (3,'Тариф за обслуживание карты', 10); 
+begin  
+
+insert into tarifs values (1,'Тариф за выдачу кредита', 10);
+insert into tarifs values (2,'Тариф за открытие счета', 10);
+insert into tarifs values (3,'Тариф за обслуживание карты', 10);
 ```
 insert into productype values (1, 'КРЕДИТ', to\_date('01.01.2018','DD.MM.YYYY'), null, 1); insert into productype values (2, 'ДЕПОЗИТ', to\_date('01.01.2018','DD.MM.YYYY'), null, 2); insert into productype values (3, 'КАРТА', to\_date('01.01.2018','DD.MM.YYYY'), null, 3); 
 
