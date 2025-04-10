@@ -110,10 +110,10 @@ COST – сумма тарифа.
 
 Скрипт заполнения таблиц 
 
-begin 
-
-insert into tarifs values (1,'Тариф за выдачу кредита', 10); insert into tarifs values (2,'Тариф за открытие счета', 10); insert into tarifs values (3,'Тариф за обслуживание карты', 10); 
-
+begin  
+```
+insert into tarifs values (1,'Тариф за выдачу кредита', 10);  insert into tarifs values (2,'Тариф за открытие счета', 10);  insert into tarifs values (3,'Тариф за обслуживание карты', 10); 
+```
 insert into productype values (1, 'КРЕДИТ', to\_date('01.01.2018','DD.MM.YYYY'), null, 1); insert into productype values (2, 'ДЕПОЗИТ', to\_date('01.01.2018','DD.MM.YYYY'), null, 2); insert into productype values (3, 'КАРТА', to\_date('01.01.2018','DD.MM.YYYY'), null, 3); 
 
 insert into clients values (1, 'Сидоров Иван Петрович', 'Россия, Московская облать, г. Пушкин', to\_date('01.01.2001','DD.MM.YYYY'), 'Россия, Московская облать, г. Пушкин, ул. Грибоедова, д. 5', '2222 555555, выдан ОВД г. Пушкин, 10.01.2015'); 
